@@ -57,6 +57,9 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .antitag <on/off>
 ║ ➤ .welcome <on/off>
 ║ ➤ .goodbye <on/off>
+║ ➤ .setgdesc <description>
+║ ➤ .setgname <new name>
+║ ➤ .setgpp (reply to image)
 ╚═══════════════════╝
 
 ╔═══════════════════╗
@@ -66,6 +69,7 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .antidelete
 ║ ➤ .cleartmp
 ║ ➤ .update
+║ ➤ .settings
 ║ ➤ .setpp <reply to image>
 ║ ➤ .autoreact <on/off>
 ║ ➤ .autostatus <on/off>
@@ -73,6 +77,8 @@ async function helpCommand(sock, chatId, message) {
 ║ ➤ .autotyping <on/off>
 ║ ➤ .autoread <on/off>
 ║ ➤ .anticall <on/off>
+║ ➤ .pmblocker <on/off/status>
+║ ➤ .pmblocker setmsg <text>
 ╚═══════════════════╝
 
 ╔═══════════════════╗
